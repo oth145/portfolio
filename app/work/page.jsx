@@ -15,33 +15,33 @@ import WorkSliderBtn from "@/components/ui/WorkSliderBtn";
 const projects = [
   {
     num : "01",
-    category: "frontend",
-    title: "project 1",
+    category: "brainwave",
+    title: "brainwave",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, animi eum. Quaerat, quidem alias fugiat labore recus",
     stack: [{name: "Html-5"},{name: "CSS"},{name:"Javascripte"}],
       image: img1,
       github: '',
-      live:""
+      live:"https://brain-othmane.vercel.app/"
   },
   {
     num : "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "travelApp",
+    title: "travelApp",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. , animi eum. Quaerat, quidem alias fugiat labore recus",
     stack: [{name: "Next.js"},{name: "Tailwind.CSS"},{name:"Laravel"}],
       image: img2,
       github: '',
-      live:""
+      live:"https://travel-ten-beryl.vercel.app/"
   },
   {
     num : "03",
-    category: "frontend",
-    title: "project 3",
+    category: "Apple Clone",
+    title: "appel clone",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, animi eum. Quaerat, quidem alias fugiat labore recus",
     stack: [{name: "Nextjs"},{name: "Tawilind.css"},],
       image: img3,
       github: '',
-      live:""
+      live:"https://apple-website-six-sand.vercel.app/"
   },
 ]
 
