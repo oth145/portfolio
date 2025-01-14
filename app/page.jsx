@@ -14,7 +14,7 @@ export default function Home() {
       <div className=" order-2 xl:order-none text-center xl:text-left">
         <span className="text-xl">Full Stack Devoloper</span>
         <h1 className="text-4xl mb-6">
-          Hello I'm <br /> <span className="text-accent">Othmane Boukhris</span>
+          Hello I&apos;m <br /> <span className="text-accent">Othmane Boukhris</span>
         </h1>
         <p className=" max-w-[500px] mb-9 text-white/80">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo dicta nisi est aperiam exercitationem soluta ullam. Quasi suscipit repellat voluptate temporibus facilis corporis deleniti provident nam ratione harum, perspiciatis at?
