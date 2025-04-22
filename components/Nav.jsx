@@ -16,6 +16,11 @@ const links = [
   {
     name: "Work",
     path: "/work"
+  }
+  ,
+  {
+    name: "Work Wordpress",
+    path: "/workWordpress"
   },{
     name: "Contact",
     path: "/contact"
