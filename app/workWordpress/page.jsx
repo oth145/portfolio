@@ -10,11 +10,35 @@ import Image from "next/image";
 import img1 from "@/public/workwordpress/thumb1.png"
 import img2 from "@/public/workwordpress/thumb2.png"
 import img3 from "@/public/workwordpress/thumb3.png"
+import img4 from "@/public/workwordpress/thumb4.png"
+import img5 from "@/public/workwordpress/thumb5.png"
+import img6 from "@/public/workwordpress/thumb6.png"
+import img7 from "@/public/workwordpress/thumb7.png"
 import WorkSliderBtn from "@/components/ui/WorkSliderBtn";
 
 const projects = [
   {
     num : "01",
+    category: "toutesuite",
+    title: "toutesuite",
+    description: "Toutesuite.ma is a digital gateway to our exclusive concierge and in-home services, showcasing our commitment to quality and convenience in Marrakech. The platform highlights our professional cleaning, private chef, and comprehensive concierge solutions. Developed with a responsive and intuitive design, the website ensures a seamless booking experience for our discerning clientele.",
+    stack: [{name: "Elementor"},{name: "Royal Elementor Addons"},{name:"Google Tag Manager"},{name:"Rank Math SEO"}],
+      image: img4,
+      github: '',
+      live:"https://toutesuite.ma/"
+  },
+  {
+    num : "02",
+    category: "Vanilla Vanille",
+    title: "Vanilla Vanille ",
+    description: "This project involved the creation of a dedicated e-commerce website for Vanilla Vanille, a premium Moroccan brand specializing in artisanal, all-natural vanilla and tonka bean products. The platform serves as their exclusive online storefront, designed to showcase their unique product line, tell the brand's story, and provide a seamless shopping experience for gourmet food enthusiasts and bakers worldwide.",
+    stack: [{name: "Elementor"},{name: "Woocommerce"},{name:"Fully responsive design"},{name:"Rank Math SEO"}],
+      image: img5,
+      github: '',
+      live:"https://vanillavanille.com"
+  },
+  {
+    num : "03",
     category: "fbarchitecture",
     title: "fbarchitecture",
     description: "FB Architectureas a digital portfolio, highlighting architectural projects, design philosophy, and professional services. Responsive Design Project Showcase Developed and customized the WordPress theme to align with the brand's identity",
@@ -24,7 +48,7 @@ const projects = [
       live:"https://fbarchitecture.ma/"
   },
   {
-    num : "02",
+    num : "04",
     category: "Namodec ",
     title: "Namodec ",
     description: "Namodec est une entreprise marocaine innovante spécialisée dans les transactions immobilières, l'architecture d'intérieur et la réalisation de travaux d'aménagement clé en main",
@@ -34,7 +58,26 @@ const projects = [
       live:"https://namodec.com/"
   },
   {
-    num : "03",
+    num : "05",
+    category: "digisuccess",
+    title: "digisuccess",
+    description: "DigiSuccess.ai – A modern digital marketing website I designed and developed, focusing on helping businesses grow online. I built it with WordPress, ensuring a clean, professional design, smooth navigation, and responsive layouts for all devices. The site highlights services, builds credibility, and drives conversions through a user-friendly experience.",
+    stack: [{name: "Elementor pro"},{name: "woocomerce"},],
+      image: img6,
+      github: '',
+      live:"https://digisuccess.ai/"
+  },{
+    num : "06",
+    category: "barcabyyasolix",
+    title: "barcabyyasolix",
+    description: "ilyasassouli-site — A personal/professional presence site I developed to showcase my work, skills, and portfolio",
+    stack: [{name: "Elementor pro"},{name: "code snippets"},],
+      image: img7,
+      github: '',
+      live:"https://ilyasassouli-site.stackstaging.com/"
+  },
+  {
+    num : "07",
     category: "restaurant",
     title: "restaurant",
     description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, animi eum. Quaerat, quidem alias fugiat labore recus",
@@ -81,7 +124,7 @@ const WorkWordpress = () => {
               </ul>
               <div className=" border border-white/20"></div>
               <div className="flex items-center gap-4">
-                <Link href={project.live}>
+                <Link href={project.live} target="_blank" rel="noopener noreferrer">
                 <TooltipProvider delayDuration={100}>
                   <Tooltip>
                     <TooltipTrigger className="rounded-full w-[70px] h-[70px] bg-white/5 flex items-center justify-center group">

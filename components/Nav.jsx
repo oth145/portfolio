@@ -5,23 +5,25 @@ const links = [
   {
     name: "Home",
     path: "/"
-  },{
+  },
+  {
+    name: "WorkWordpress",
+    path: "/workWordpress"
+  }
+  ,{
     name: "Services",
     path: "/services"
   },
   {
     name: "Resume",
     path: "/resume"
-  },
-  {
-    name: "Work",
-    path: "/work"
   }
-  ,
-  {
-    name: "Work Wordpress",
-    path: "/workWordpress"
-  },{
+  // ,
+  // {
+  //   name: "Work",
+  //   path: "/work"
+  // }
+  ,{
     name: "Contact",
     path: "/contact"
   }

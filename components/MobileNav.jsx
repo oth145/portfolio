@@ -21,10 +21,16 @@ const links = [
   {
     name: "Work",
     path: "/work"
-  },{
+  },
+  {
+    name: "WorkWordpress",
+    path: "/work-wordpress"
+  }
+  ,{
     name: "Contact",
     path: "/contact"
   }
+  
 ]
 const MobileNav = () => {
   const pathname = usePathname();

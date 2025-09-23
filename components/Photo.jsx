@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import img from "@/public/photo.png"
+import img from "@/public/hero_image.png"
 import { motion } from "framer-motion";
 const Photo = () => {
   return (
@@ -18,7 +18,7 @@ const Photo = () => {
       animate= {{opacity:1,
         transition: {delay:2.4,duration:0.4,ease: "easeInOut"}
       }}
-      className="w-[200px] h-[298px] xl:w-[400px] xl:h-[480px] xl:left-14 xl:bottom-10 mix-blend-lighten absolute left-12 bottom-2">
+className="w-[260px] h-[260px] xl:w-[420px] xl:h-[460px] xl:left-10 xl:bottom-6 mix-blend-lighten absolute left-5 bottom-4"      >
       <Image src={img}
       fill
       sizes="lg"

@@ -47,36 +47,28 @@ const about = {
 
 const experince = {
   icon: badge,
-  title: "my expericene",
-  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, necessitatibus perferendis sint consequuntur neque non odio impedit quidem",
+  title: "My Experience",
+  description:
+    "I have hands-on experience as a full-stack developer, with a strong focus on WordPress, Shopify, and modern web technologies. From freelancing to working at a WordPress agency, I’ve built professional websites and helped businesses grow their online presence.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - present",
-    },{
-      company: "Web Design Studio",
-      position: "Front-End Developper Intern",
-      duration: "Summer 2021",
-    },{
-      company: "E-commerce Startup",
-      position: "Freelance web Developer",
-      duration: "2020 - 2021",
-    },{
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },,{
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2018 - 2019",
-    },,{
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2017 - 2018",
+      company: "Twily Agency",
+      position: " WordPress/shopify Developer",
+      duration: "2025 - Present",
     },
+    {
+      company: "Freelance Projects",
+      position: "Full Stack Web Developer, wordpress",
+      duration: "2021 - 2024",
+    },
+    {
+      company: "Institut Spécialisé de Technologie Appliquée NTIC",
+      position: "Full-Stack Development Student",
+      duration: "2019 - 2023",
+    }
   ]
 }
+
 
 // education data
 const eductation = {

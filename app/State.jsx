@@ -2,10 +2,10 @@
 import CountUp from 'react-countup';
 
 const stats = [
-  {number: 12, text: "dpqdkeaopd aeopdk aopdk"},
-  {number: 8, text: "cmez eafeofkop adae"},
-  {number: 6, text: "fzoekfop  epfkzop"},
-  {number: 500, text: "zfkqef  dad uoigtiugt"},
+  {number: 12, text: "Completed Projects"},
+  {number: 8, text: "Happy Clients"},
+  {number: 6, text: "Technologies Mastered"},
+  {number: 500, text: "Hours of Coding "},
 ]
 const State = () => {
   return (
