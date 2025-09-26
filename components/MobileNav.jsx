@@ -5,33 +5,34 @@ import { Sheet , SheetTrigger , SheetContent } from "./ui/sheet";
 import {CiMenuFries} from "react-icons/ci"
 import Link from "next/link";
 
-
 const links = [
   {
     name: "Home",
     path: "/"
-  },{
+  },
+  {
+    name: "WorkWordpress",
+    path: "/workWordpress"
+  }
+  ,{
     name: "Services",
     path: "/services"
   },
   {
     name: "Resume",
     path: "/resume"
-  },
-  {
-    name: "Work",
-    path: "/work"
-  },
-  {
-    name: "WorkWordpress",
-    path: "/work-wordpress"
   }
+  // ,
+  // {
+  //   name: "Work",
+  //   path: "/work"
+  // }
   ,{
     name: "Contact",
     path: "/contact"
   }
-  
 ]
+
 const MobileNav = () => {
   const pathname = usePathname();
   return (
