@@ -161,11 +161,17 @@ const WorkWordpress = () => {
               {projects.map((project,index) => {
                 return <SwiperSlide key={index}>
                   <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
-                    <div className="absolute top-0 bottom-0 left-0 bg-black/10 w-full h-full z-10">
+                    <div className="absolute top-0 bottom-0 left-0 bg-black/10 w-full h-full z-0 pointer-events-none">
                     </div>
-                    <div className="h-full w-full relative">
-                      <Image src={project.image} fill alt="" className="object-cover " />
-                    </div>
+                    {project.live ? (
+                      <Link href={project.live} target="_blank" rel="noopener noreferrer" className="h-full w-full relative block cursor-pointer z-10">
+                        <Image src={project.image} fill alt="" className="object-cover " />
+                      </Link>
+                    ) : (
+                      <div className="h-full w-full relative z-10">
+                        <Image src={project.image} fill alt="" className="object-cover " />
+                      </div>
+                    )}
                   </div>
                 </SwiperSlide>
               })}
